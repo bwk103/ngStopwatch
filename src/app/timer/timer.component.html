@@ -1,6 +1,10 @@
 <div class="container">
-  <h3>Time Elapsed: {{count}} secs</h3>
-  <button (click)="onStart()" class="btn btn-success">Start</button>
-  <button (click)="onStop()" class="btn btn-danger">Stop</button>
-  <button (click)="onReset()" class="btn btn-primary">Reset</button>
+  <div class="row">
+    <h3>Time Elapsed: {{count}} secs</h3>
+  </div>
+  <div class="row">
+    <button (click)="onStart()" class="btn btn-success">Start</button>
+    <button (click)="onStop()" class="btn btn-danger">Stop</button>
+    <button (click)="onReset()" class="btn btn-primary">Reset</button>
+  </div>
 </div>
